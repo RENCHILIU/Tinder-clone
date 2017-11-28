@@ -1,0 +1,242 @@
+BCSymbolMap Version: 2.0
++[BFTaskCompletionSource taskCompletionSource]
+-[BFTaskCompletionSource init]
+-[BFTaskCompletionSource setResult:]
+-[BFTaskCompletionSource setError:]
+-[BFTaskCompletionSource setException:]
+-[BFTaskCompletionSource cancel]
+-[BFTaskCompletionSource trySetResult:]
+-[BFTaskCompletionSource trySetError:]
+-[BFTaskCompletionSource trySetException:]
+-[BFTaskCompletionSource trySetCancelled]
+-[BFTaskCompletionSource task]
+-[BFTaskCompletionSource .cxx_destruct]
+_OBJC_IVAR_$_BFTaskCompletionSource._task
+Apple LLVM version 9.0.0 (clang-900.0.38)
+/Users/liurenchi/Desktop/Tinder/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/BFTaskCompletionSource.m
+/Users/liurenchi/Desktop/Tinder/Carthage/Checkouts/Bolts-ObjC
+/Users/liurenchi/Desktop/Tinder/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/BFTaskCompletionSource.h
+-[BFTask init]
+-[BFTask initWithResult:]
+-[BFTask initWithError:]
+-[BFTask initWithException:]
+-[BFTask initCancelled]
++[BFTask taskWithResult:]
++[BFTask taskWithError:]
++[BFTask taskWithException:]
++[BFTask cancelledTask]
++[BFTask taskForCompletionOfAllTasks:]
+___38+[BFTask taskForCompletionOfAllTasks:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[BFTask taskForCompletionOfAllTasksWithResults:]
+___49+[BFTask taskForCompletionOfAllTasksWithResults:]_block_invoke
+___copy_helper_block_.80
+___destroy_helper_block_.81
++[BFTask taskForCompletionOfAnyTask:]
+___37+[BFTask taskForCompletionOfAnyTask:]_block_invoke
+___copy_helper_block_.89
+___destroy_helper_block_.90
++[BFTask taskWithDelay:]
+___24+[BFTask taskWithDelay:]_block_invoke
+___copy_helper_block_.92
+___destroy_helper_block_.93
++[BFTask taskWithDelay:cancellationToken:]
+___42+[BFTask taskWithDelay:cancellationToken:]_block_invoke
+___copy_helper_block_.101
+___destroy_helper_block_.102
++[BFTask taskFromExecutor:withBlock:]
+___37+[BFTask taskFromExecutor:withBlock:]_block_invoke
+___copy_helper_block_.104
+___destroy_helper_block_.105
+-[BFTask result]
+-[BFTask trySetResult:]
+-[BFTask error]
+-[BFTask trySetError:]
+-[BFTask exception]
+-[BFTask trySetException:]
+-[BFTask isCancelled]
+-[BFTask isFaulted]
+-[BFTask trySetCancelled]
+-[BFTask isCompleted]
+-[BFTask runContinuations]
+-[BFTask continueWithExecutor:withBlock:]
+-[BFTask continueWithExecutor:block:cancellationToken:]
+___55-[BFTask continueWithExecutor:block:cancellationToken:]_block_invoke
+___55-[BFTask continueWithExecutor:block:cancellationToken:]_block_invoke_2
+___copy_helper_block_.139
+___destroy_helper_block_.140
+___copy_helper_block_.142
+___destroy_helper_block_.143
+___55-[BFTask continueWithExecutor:block:cancellationToken:]_block_invoke.145
+___copy_helper_block_.148
+___destroy_helper_block_.149
+-[BFTask continueWithBlock:]
+-[BFTask continueWithBlock:cancellationToken:]
+-[BFTask continueWithExecutor:withSuccessBlock:]
+-[BFTask continueWithExecutor:successBlock:cancellationToken:]
+___62-[BFTask continueWithExecutor:successBlock:cancellationToken:]_block_invoke
+___copy_helper_block_.160
+___destroy_helper_block_.161
+-[BFTask continueWithSuccessBlock:]
+-[BFTask continueWithSuccessBlock:cancellationToken:]
+-[BFTask warnOperationOnMainThread]
+-[BFTask waitUntilFinished]
+-[BFTask description]
+-[BFTask setCancelled:]
+-[BFTask setFaulted:]
+-[BFTask setCompleted:]
+-[BFTask lock]
+-[BFTask setLock:]
+-[BFTask condition]
+-[BFTask setCondition:]
+-[BFTask callbacks]
+-[BFTask setCallbacks:]
+-[BFTask .cxx_destruct]
+_OBJC_IVAR_$_BFTask._lock
+_OBJC_IVAR_$_BFTask._condition
+_OBJC_IVAR_$_BFTask._callbacks
+___block_descriptor_tmp
+___block_descriptor_tmp.82
+___block_descriptor_tmp.91
+___block_descriptor_tmp.95
+___block_descriptor_tmp.103
+___block_descriptor_tmp.106
+_OBJC_IVAR_$_BFTask._result
+_OBJC_IVAR_$_BFTask._error
+_OBJC_IVAR_$_BFTask._exception
+_OBJC_IVAR_$_BFTask._cancelled
+_OBJC_IVAR_$_BFTask._faulted
+_OBJC_IVAR_$_BFTask._completed
+___block_descriptor_tmp.141
+___block_descriptor_tmp.144
+___block_descriptor_tmp.150
+___block_descriptor_tmp.162
+/Users/liurenchi/Desktop/Tinder/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/BFTask.m
+__destroy_helper_block_
+__copy_helper_block_
+__62-[BFTask continueWithExecutor:successBlock:cancellationToken:]_block_invoke
+__55-[BFTask continueWithExecutor:block:cancellationToken:]_block_invoke.145
+__55-[BFTask continueWithExecutor:block:cancellationToken:]_block_invoke_2
+__55-[BFTask continueWithExecutor:block:cancellationToken:]_block_invoke
+__37+[BFTask taskFromExecutor:withBlock:]_block_invoke
+__42+[BFTask taskWithDelay:cancellationToken:]_block_invoke
+__24+[BFTask taskWithDelay:]_block_invoke
+__37+[BFTask taskForCompletionOfAnyTask:]_block_invoke
+__49+[BFTask taskForCompletionOfAllTasksWithResults:]_block_invoke
+__38+[BFTask taskForCompletionOfAllTasks:]_block_invoke
+warnBlockingOperationOnMainThread
+/Users/liurenchi/Desktop/Tinder/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/Bolts.m
++[BFCancellationTokenRegistration registrationWithToken:delegate:]
+-[BFCancellationTokenRegistration init]
+-[BFCancellationTokenRegistration dispose]
+-[BFCancellationTokenRegistration notifyDelegate]
+-[BFCancellationTokenRegistration throwIfDisposed]
+-[BFCancellationTokenRegistration token]
+-[BFCancellationTokenRegistration setToken:]
+-[BFCancellationTokenRegistration cancellationObserverBlock]
+-[BFCancellationTokenRegistration setCancellationObserverBlock:]
+-[BFCancellationTokenRegistration lock]
+-[BFCancellationTokenRegistration setLock:]
+-[BFCancellationTokenRegistration disposed]
+-[BFCancellationTokenRegistration setDisposed:]
+-[BFCancellationTokenRegistration .cxx_destruct]
+_OBJC_IVAR_$_BFCancellationTokenRegistration._lock
+_OBJC_IVAR_$_BFCancellationTokenRegistration._token
+_OBJC_IVAR_$_BFCancellationTokenRegistration._cancellationObserverBlock
+_OBJC_IVAR_$_BFCancellationTokenRegistration._disposed
+/Users/liurenchi/Desktop/Tinder/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/BFCancellationTokenRegistration.m
+-[BFCancellationTokenSource init]
++[BFCancellationTokenSource cancellationTokenSource]
+-[BFCancellationTokenSource isCancellationRequested]
+-[BFCancellationTokenSource cancel]
+-[BFCancellationTokenSource cancelAfterDelay:]
+-[BFCancellationTokenSource dispose]
+-[BFCancellationTokenSource token]
+-[BFCancellationTokenSource .cxx_destruct]
+_OBJC_IVAR_$_BFCancellationTokenSource._token
+/Users/liurenchi/Desktop/Tinder/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/BFCancellationTokenSource.m
+/Users/liurenchi/Desktop/Tinder/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/BFCancellationTokenSource.h
++[BFExecutor defaultExecutor]
+___29+[BFExecutor defaultExecutor]_block_invoke
+___29+[BFExecutor defaultExecutor]_block_invoke_2
+_remaining_stack_size
++[BFExecutor immediateExecutor]
+___31+[BFExecutor immediateExecutor]_block_invoke
+___31+[BFExecutor immediateExecutor]_block_invoke_2
+___copy_helper_block_.5
+___destroy_helper_block_.6
++[BFExecutor mainThreadExecutor]
+___32+[BFExecutor mainThreadExecutor]_block_invoke
+___32+[BFExecutor mainThreadExecutor]_block_invoke_2
+___copy_helper_block_.13
+___destroy_helper_block_.14
++[BFExecutor executorWithBlock:]
++[BFExecutor executorWithDispatchQueue:]
+___40+[BFExecutor executorWithDispatchQueue:]_block_invoke
+___copy_helper_block_.21
+___destroy_helper_block_.22
++[BFExecutor executorWithOperationQueue:]
+___41+[BFExecutor executorWithOperationQueue:]_block_invoke
+___copy_helper_block_.29
+___destroy_helper_block_.30
+-[BFExecutor initWithBlock:]
+-[BFExecutor execute:]
+-[BFExecutor block]
+-[BFExecutor setBlock:]
+-[BFExecutor .cxx_destruct]
+_defaultExecutor.defaultExecutor
+_defaultExecutor.onceToken
+___block_literal_global
+___block_descriptor_tmp.2
+_immediateExecutor.immediateExecutor
+_immediateExecutor.onceToken
+___block_descriptor_tmp.3
+___block_literal_global.4
+___block_descriptor_tmp.8
+_mainThreadExecutor.mainThreadExecutor
+_mainThreadExecutor.onceToken
+___block_descriptor_tmp.11
+___block_literal_global.12
+___block_descriptor_tmp.16
+___block_descriptor_tmp.23
+___block_descriptor_tmp.31
+_OBJC_IVAR_$_BFExecutor._block
+/Users/liurenchi/Desktop/Tinder/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/BFExecutor.m
+__41+[BFExecutor executorWithOperationQueue:]_block_invoke
+__40+[BFExecutor executorWithDispatchQueue:]_block_invoke
+__32+[BFExecutor mainThreadExecutor]_block_invoke_2
+__32+[BFExecutor mainThreadExecutor]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.1.sdk/usr/include/dispatch/once.h
+__31+[BFExecutor immediateExecutor]_block_invoke_2
+__31+[BFExecutor immediateExecutor]_block_invoke
+remaining_stack_size
+__29+[BFExecutor defaultExecutor]_block_invoke_2
+__29+[BFExecutor defaultExecutor]_block_invoke
+_taskCatchExceptions
+/Users/liurenchi/Desktop/Tinder/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/BFTask+Exceptions.m
+BFTaskSetCatchesExceptions
+BFTaskCatchesExceptions
+-[BFCancellationToken init]
+-[BFCancellationToken isCancellationRequested]
+-[BFCancellationToken cancel]
+-[BFCancellationToken notifyCancellation:]
+-[BFCancellationToken registerCancellationObserverWithBlock:]
+-[BFCancellationToken unregisterRegistration:]
+-[BFCancellationToken cancelPrivate]
+-[BFCancellationToken cancelAfterDelay:]
+-[BFCancellationToken dispose]
+-[BFCancellationToken throwIfDisposed]
+-[BFCancellationToken registrations]
+-[BFCancellationToken setRegistrations:]
+-[BFCancellationToken lock]
+-[BFCancellationToken setLock:]
+-[BFCancellationToken disposed]
+-[BFCancellationToken setDisposed:]
+-[BFCancellationToken .cxx_destruct]
+_OBJC_IVAR_$_BFCancellationToken._registrations
+_OBJC_IVAR_$_BFCancellationToken._lock
+_OBJC_IVAR_$_BFCancellationToken._cancellationRequested
+_OBJC_IVAR_$_BFCancellationToken._disposed
+/Users/liurenchi/Desktop/Tinder/Carthage/Checkouts/Bolts-ObjC/Bolts/Common/BFCancellationToken.m

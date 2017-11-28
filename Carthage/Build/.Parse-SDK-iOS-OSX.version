@@ -1,0 +1,27 @@
+{
+  "Mac" : [
+    {
+      "name" : "Parse",
+      "hash" : "f3ed8ec0d9fe02f80afc9888b4899fbcd7d68f68ad0ecb86f527af5a3e5b8ed6"
+    }
+  ],
+  "watchOS" : [
+    {
+      "name" : "Parse",
+      "hash" : "2bcb52416b1761313be9f207807204ae6eb6597a7461c61b7e51e51f48c9d367"
+    }
+  ],
+  "tvOS" : [
+    {
+      "name" : "Parse",
+      "hash" : "fe73aa1fabe966753d40e38623ab4967b431ec94b86afe6355adad77d2326d86"
+    }
+  ],
+  "commitish" : "1.15.3",
+  "iOS" : [
+    {
+      "name" : "Parse",
+      "hash" : "feb9b66a609c8bc02685246caeb703a925cff333a662a2b77185a19b3c312e7d"
+    }
+  ]
+}
