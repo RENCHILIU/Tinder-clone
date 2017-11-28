@@ -15,7 +15,7 @@ Including Login/Sign up function, Search and Swipe user, Message sending System.
 - app video preview address :
    [click](https://youtu.be/vfPqmZmPSjE)
    
-   ![IMG_7365-w375](https://lh3.googleusercontent.com/-EgxassuoSwE/Wh2fixOIWzI/AAAAAAAAOwE/RRZ2pP_RQRc1wf1s3YTo6Zy_qx1oy3hRQCHMYCw/I/IMG_7365.png =250x)
+   <img src = "https://lh3.googleusercontent.com/-EgxassuoSwE/Wh2fixOIWzI/AAAAAAAAOwE/RRZ2pP_RQRc1wf1s3YTo6Zy_qx1oy3hRQCHMYCw/I/IMG_7365.png" width="48">
 ![IMG_7364-w375](https://lh3.googleusercontent.com/-yvyVwaFThoM/Wh2fjH2km7I/AAAAAAAAOwI/wbxPf0Na0C0ljmuTsthqZvPq8bKnAiohgCHMYCw/I/IMG_7364.png)
 ![IMG_7363-w375](https://lh3.googleusercontent.com/-Bdg5VEpjaVo/Wh2fjl-WTOI/AAAAAAAAOwM/FxCqW5CVfTIEuyTgQSpyJfGjgEIgTDPhgCHMYCw/I/IMG_7363.png)
 ![IMG_7362-w375](https://lh3.googleusercontent.com/-lAp-f5gcq0E/Wh2fkHpWU1I/AAAAAAAAOwQ/buAqvV1eAYgZCMMZmeiFxYpvwa41Ui_gACHMYCw/I/IMG_7362.png)
