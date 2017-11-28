@@ -11,6 +11,10 @@ Including Login/Sign up function, Search and Swipe user, Message sending System.
 - Version control : git
 - Server : Parse Server
 
+### App environment 
+- swift 4
+- Xcode 9.2 Beta
+
 ### Detail
 - app video preview address :
    [click](https://youtu.be/vfPqmZmPSjE)
