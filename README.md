@@ -15,6 +15,7 @@ Including Login/Sign up function, Search and Swipe user, Message sending System.
 - app video preview address :
    [click](https://youtu.be/vfPqmZmPSjE)
    
+- app image preview :
 
 <p><img src="https://lh3.googleusercontent.com/-EaHciHWXCmg/Wh2lWa8lsDI/AAAAAAAAOwo/i9WuYog8A1005tOnNgSOlrvlG8B2EKPuwCHMYCw/I/apppreview.jpg" alt="appprevie"/></p>
 
